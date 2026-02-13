@@ -1,8 +1,10 @@
 # Ignore everything
 *
 
-# Except dist and .gitignore
+# Except dist, .gitignore, CNAME, and GitHub workflows
 !.gitignore
+!.github
+!.github/**
 !dist
 !dist/**
 !CNAME
